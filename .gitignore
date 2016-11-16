@@ -1,0 +1,15 @@
+# OS ===========================
+
+*~
+
+
+# Private Assets ===============
+
+*.pem
+config/db.js
+
+
+# Node and related =============
+
+node_modules/
+public/lib/
