@@ -1,3 +1,8 @@
+# Use the following to remove large groups of newly ignored files
+#git rm -r --cached .
+#git add -A
+#git commit -am 'Removing ignored files'
+
 # OS ===========================
 
 *~
@@ -7,7 +12,7 @@
 
 *.pem
 config/db.js
-
+resources/
 
 # Node and related =============
 

@@ -7,18 +7,22 @@ var app = express();
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
+// we don't pull in mongoose here, because we don't need it in server.js
+var mongoose = require('mongoose');
+
 
 // configuration ================================================
 
 // config files
-var db = require('.config/db');
+var db = require('./config/db');
 
 // set our port
 var port = process.env.PORT || 8080;
 
 // connect to our mongoDB database
 // (uncomment after you enter in your own credentials in config/db.js)
-// mongoose.connect(db.url);
+//mongoose.connect(db.url);
+mongoose.connect('mongodb://127.0.0.1:27017/test'); console.log('Using local database');
 
 
 // get all data/stuff from body (POST) parameters
@@ -52,3 +56,4 @@ console.log('Listening on port: ' +port);
 
 // expose app
 exports = module.exports = app;
+
