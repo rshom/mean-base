@@ -52,7 +52,7 @@ module.exports = function(app) {
 	    //// we are currently in /app/ so we have to back out one
 	    root: __dirname + '/../public/'
 	};
-	res.sendFile('./views/index.html',options);
+	res.sendFile('./index.html',options);
     });
 
 };

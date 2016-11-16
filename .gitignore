@@ -17,4 +17,4 @@ resources/
 # Node and related =============
 
 node_modules/
-public/lib/
+public/libs/

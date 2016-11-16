@@ -1,0 +1,12 @@
+{
+    "directory": "public/libs",
+    "name": "tmp",
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap": "latest",
+        "font-awesome": "latest",
+        "animate.css": "latest",
+        "angular": "latest",
+        "angular-route": "latest"   
+    }
+}
