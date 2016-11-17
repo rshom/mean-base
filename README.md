@@ -8,6 +8,9 @@ You need npm and bower globally installed
 npm install
 ~~~~
 
+~~~~
+bower install
+~~~~
 
 If you are going to connect to mongo
 ~~~~
